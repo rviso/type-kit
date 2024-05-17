@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint", // ESLint
+    "editorconfig.editorconfig", // EditorConfig for VS Code
+    "esbenp.prettier-vscode", // Prettier - Code formatter
+    "redjue.git-commit-plugin",
+    "rvest.vs-code-prettier-eslint", // Prettier ESLint
+    "streetsidesoftware.code-spell-checker", // Code Spell Checker
+  ]
+}

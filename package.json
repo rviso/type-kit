@@ -1,0 +1,37 @@
+{
+  "name": "types-echo",
+  "version": "0.1.0",
+  "description": "typescript echo",
+  "main": "index.d.ts",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "lint": "eslint --ext \"**/*.ts\" && prettier --check \"**/*.ts\" && tsc --noEmit",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rviso/types-echo.git"
+  },
+  "keywords": [
+    "typescript",
+    "types",
+    "utils"
+  ],
+  "author": "lingann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rviso/types-echo/issues"
+  },
+  "homepage": "https://github.com/rviso/types-echo#readme",
+  "devDependencies": {
+    "@rviso/eslint-config-standard": "^0.1.0",
+    "@rviso/eslint-config-typescript": "^0.1.0",
+    "eslint": "^8.16.0",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  }
+}

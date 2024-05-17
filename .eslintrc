@@ -1,0 +1,14 @@
+{
+  "extends": [ "@rviso/eslint-config-standard" ],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.d.ts"],
+      "extends": [
+        "@rviso/eslint-config-typescript"
+      ],
+      "parserOptions": {
+        "parser": "@typescript-eslint/parser"
+      }
+    }
+  ]
+}
